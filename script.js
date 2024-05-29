@@ -3,10 +3,10 @@
 
 
 // задание 2
-        // let name = "Иван";
-        // alert(name);
-        // let admin = "Иван";
-        // alert(admin);
+//         let name = "Иван";
+//         alert(name);
+//         let admin = "Иван";
+//         alert(admin);
 
 // задание 3 (ответ  hello Ilya)
 // let name = "Ilya";
@@ -156,33 +156,32 @@
 
 
 // задание 23
-let message;
-let message2;
-let login;
-login = prompt('Введите логин');
-if (login == ''){
-    location.reload();
-}else if (login == 'Админ'){
-    let password;
-    password = prompt('Пароль');
-    if (password == 'Я Главный'){
-        message2 = 'Здравствуйте';
-        alert(message2);
-    } else if (password == 'Отмена'){
-        message2 = 'Отменено';
-        alert(message2); 
-    } else {
-        message2 = 'Неверный пароль';
-        alert(message2);
-    }
-} else if (login == 'Отмена'){
-    message = 'Отменено';
-    alert(message);
-} else {
-    message = 'Я вас не знаю';
-    alert(message);
-}
-
+// let message;
+// let message2;
+// let login;
+// login = prompt('Введите логин');
+// if (login == ''){
+//     location.reload();
+// }else if (login == 'Админ'){
+//     let password;
+//     password = prompt('Пароль');
+//     if (password == 'Я Главный'){
+//         message2 = 'Здравствуйте';
+//         alert(message2);
+//     } else if (password == 'Отмена'){
+//         message2 = 'Отменено';
+//         alert(message2); 
+//     } else {
+//         message2 = 'Неверный пароль';
+//         alert(message2);
+//     }
+// } else if (login == 'Отмена'){
+//     message = 'Отменено';
+//     alert(message);
+// } else {
+//     message = 'Я вас не знаю';
+//     alert(message);
+// }
 
 
 
